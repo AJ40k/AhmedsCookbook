@@ -1,0 +1,154 @@
+
+h1{
+  font-size: 60px;
+  color:#800000;
+  padding-bottom:15px;
+  font-family:'Brush Script MT', cursive;
+
+}
+table{
+  padding-left: 2%;
+}
+tr:nth-child(even){
+  background-color:#800000;
+}
+tr:nth-child(odd){
+  background-color:#800000;
+}
+th{
+  color:#E6E6FA;
+}
+td{
+  color:#E6E6FA;
+}
+
+h3{
+font-weight:bold;
+    color:#C71585;
+    font-size:25px;
+}
+ul{
+  font-size:20px;
+  color:#800080;
+}
+body{
+  background-color:#FFE4E1;
+}
+
+p{
+  color:#800080;
+  font-size:18px;
+  font-family: Arial Narrow, sans-serif;
+}
+
+  p.c{
+    font-size:20px;
+    font-weight: bold;
+    color:#C71585;
+    padding-top: 18px;
+  }
+  p.d{
+    font-size:20px;
+    font-weight:bold;
+    color:#C71585;
+      padding-top: 18px;
+
+  }
+
+
+
+  /* for the comment profile */
+.prof{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float:left;
+}
+
+/*For the navigation menu*/
+.nav{
+  float:right;
+  list-style:none;
+
+}
+.nav li{
+  display:inline-block;
+}
+.nav li a{
+  color:#800080;
+  text-decoration:none;
+  padding:5px 20px 5px 20px;
+  font-family:"poppins";
+  font-size:15px;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+.nav li a:hover{
+  background:#fff;
+  color:#800080;
+}
+.nav a.current{
+  text-decoration:underline;
+  text-decoration-color:#800080;
+}
+li{
+  color:#800080;
+}
+.beef1{
+  float:right;
+  border:5px solid #800080;
+}
+.beef2{
+  float:right;
+  border:5px solid #800080;
+
+}
+.beef3{
+  float:right;
+  border:5px solid #800080;
+
+}
+.button {
+  background-color:#663399;
+  border: none;
+  color:#FFFFE0;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .nav{
+    float:none;
+  }
+  .nav li{
+    display:block;
+    text-align:left;
+  }
+  .nav li a{
+    padding: 0px 0px 0px 0px;
+  }
+  .beef1 {
+  float:none;
+  width:200px;
+  height:200px;
+  }
+  .beef2 {
+  float:none;
+  width:200px;
+  height:200px;
+  }
+  .beef3 {
+  float:none;
+  width:200px;
+  height:200px;
+  }
+  table{
+    padding-bottom: 10%;
+  }
+
+}

@@ -1,0 +1,114 @@
+h1 {
+  color: #800080;
+  font-size: 50px;
+  font-style: italic;
+  margin: auto;
+  font-family:'Brush Script MT', cursive;
+}
+h3{
+  font-size: 25px;
+  font-style: italic;
+  color:#4B0082;
+  font-family:"Times New Roman", Times, serif;
+}
+p{
+  font-family:"Times New Roman", Times, serif;
+  color:#800000;
+  font-size:20px;
+}
+body{
+  background-color:#FFE4E1;
+}
+h2{
+font-family:"Times New Roman", Times, serif;
+  color:#800080;
+}
+p.a{
+font-weight:bold;
+color:#800000;
+font-size:20px;
+}
+p.b{
+  font-style: italic;
+  color:#800080;
+  font-weight:bold;
+}
+h3.one{
+font-size:20px;
+font-weight: bold;
+}
+h3.two{
+  font-size:20px;
+  font-weight: bold;
+}
+h3.three{
+  font-size:20px;
+  font-weight: bold;
+}
+h3.four{
+  font-size:20px;
+  font-weight: bold;
+}
+p.b{
+  color:#800080;
+}
+p.z{
+font-size:25px;
+ color: #800080;
+  font-style:italic;
+}
+address{
+  font-family:"Times New Roman", Times, serif;
+  color:#800000;
+  font-size:20px;
+}
+h2.qu{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color:#4B0082;
+  font-family:"Times New Roman", Times, serif;
+}
+/*For the navigation menu*/
+.nav{
+  float:right;
+  list-style:none;
+  margin-top:30px;
+}
+.nav li{
+  display:inline-block;
+}
+.nav li a{
+  color:#800080;
+  text-decoration:none;
+  padding:5px 20px 5px 20px;
+  font-family:"poppins";
+  font-size:15px;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+.nav li a:hover{
+  background:#fff;
+  color:#800080;
+}
+.nav a.current{
+  text-decoration:underline;
+  text-decoration-color:#800080;
+}
+li{
+  color:#800080;
+}
+@media screen and (max-width: 600px) {
+  .nav{
+    float:none;
+  }
+  .nav li{
+    display:block;
+    text-align:left;
+  }
+  .nav li a{
+    padding: 0px 0px 0px 0px;
+  }
+
+}

@@ -1,0 +1,79 @@
+h{
+  font-size: 60px;
+  color:#800000;
+  padding-bottom:20px;
+  font-family:'Brush Script MT', cursive;
+  padding-top:25px;
+}
+
+h3{
+font-weight:bold;
+    color:#C71585;
+    font-size:25px;
+}
+ul{
+  font-size:20px;
+  color:#8B0000;
+}
+body{
+  background-color:#FFE4E1;
+}
+
+p{
+  color:#8B0000;
+  font-size:18px;
+}
+th{
+  color:#C71585;}
+  p.c{
+    font-size:20px;
+    font-weight: bold;
+    color:#C71585;
+    padding-top: 18px;
+  }
+  p.d{
+    font-size:20px;
+    font-weight:bold;
+    color:#C71585;
+      padding-top: 18px;
+  }
+  table{
+    padding-top:20px;
+  }
+
+  td{
+    color:#8B0000;
+  }
+img.prof{
+float:left;
+  height:50px;
+  width:50px;
+padding-bottom:20px;
+}
+.nav{
+  float:right;
+  list-style:none;
+  margin-top:30px;
+}
+.nav li{
+  display:inline-block;
+}
+.nav li a{
+  color:#191970;
+  text-decoration:none;
+  padding:5px 20px 5px 20px;
+  font-family:"poppins";
+  font-size:16px;
+  text-transform:uppercase
+}
+.nav li a:hover{
+  background:#fff;
+  color:#191970;
+}
+.nav a.current{
+  text-decoration:underline;
+  text-decoration-color:#191970;
+}
+li{
+  color:#663399;
+}

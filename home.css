@@ -1,0 +1,50 @@
+h1{
+  font-size:70px;
+padding-left:30%;
+  color:#B22222;
+}
+body{
+  background-image:url('kitchen.jpg');
+  background-repeat:no-repeat;
+   background-size: 100% 100%;
+ background-attachment: fixed;
+}
+/*For the navigation menu*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+float:left;
+  color:#B22222;
+}
+
+
+li a {
+  display:inline-block;
+  color: #B22222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:25px;
+  font-weight:bold;
+}
+
+li a:hover{
+  background-color:#DAA520;
+}
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  li{
+    float:none;
+  }
+  li a{
+    display: block;
+    
+  }
+
+
+}
